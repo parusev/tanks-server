@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node .",
+    "start": "node .",
+    "build-and-start": "npm run build && npm run start",
     "lint": "npx eslint ./src/**"
   },
   "keywords": [],
